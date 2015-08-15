@@ -1,0 +1,10 @@
+--- .release_build/ptxgrammar.hpp	2013-09-25 17:10:08.594465846 +0200
++++ .release_build/ptxgrammar.hpp.fixed	2013-09-25 17:12:08.246951530 +0200
+@@ -349,6 +349,6 @@ struct YYLTYPE
+ 
+ 
+ 
+-int yyparse (parser::PTXLexer& lexer, parser::PTXParser::State& state);
++//int yyparse (parser::PTXLexer& lexer, parser::PTXParser::State& state);
+ 
+ #endif /* !YY_YY_RELEASE_BUILD_PTXGRAMMAR_HPP_INCLUDED  */
